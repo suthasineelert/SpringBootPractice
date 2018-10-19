@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.springframework.gs_spring_boot.HelloControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.624 s <<< FAILURE! - in org.springframework.gs_spring_boot.HelloControllerTest
+initializationError(org.springframework.gs_spring_boot.HelloControllerTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+
